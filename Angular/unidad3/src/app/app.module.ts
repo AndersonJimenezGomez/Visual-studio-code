@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 
 //Importaciones realizadas por mi
 
-import {HeaderComponent} from './componentes/header/header.component'
+import {HeaderComponent} from './components/header/header.component'
+import { BodyComponent } from './components/body/body.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    BodyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
